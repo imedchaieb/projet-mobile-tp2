@@ -1,10 +1,4 @@
 # projet-mobile-tp2
 
-
-MainActivity (Home)
-      │  Bundle #1 → name, brand, price, description
-      ▼
-CarDetailActivity      (shows the car)
-      │  Bundle #2 → name, price only
-      ▼
-ReservationSummaryActivity   (user enters days → total calculated locally)
+summary:
+MainActivity (Home) → sends Bundle #1 containing name, brand, price, and description → CarDetailActivity (displays the car) → sends Bundle #2 containing name and price → ReservationSummaryActivity (user enters the number of days, and the total price is calculated locally).
